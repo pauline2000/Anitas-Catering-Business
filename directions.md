@@ -9,7 +9,7 @@
 ### Important:
 - Do not change the layout or image sizes.
 - Use [Google fonts](https://www.google.com/fonts) for fonts.
-- Colour codes for the various colours used are:  `#F15A29`
+- Colour codes for the various colours used are:  `#F15A29` 
 
 
 ### REQUIRED
