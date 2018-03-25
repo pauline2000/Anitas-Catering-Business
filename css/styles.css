@@ -64,7 +64,7 @@ height: 100%
 .one{
   padding-top: 5em;
   padding-bottom: 5em;
-  
+
 }
 .two{
   padding-top: 5em;
@@ -90,7 +90,7 @@ height: 100%
   background-size: cover;
   height: 100%;
 }
-.footer{
+/* .footer{
   position: relative;
   left: 0;
   bottom: 0;
@@ -101,4 +101,4 @@ height: 100%
   text-align: center;
 padding-top: 12em;
 padding-bottom: 12em;
-}
+} */
