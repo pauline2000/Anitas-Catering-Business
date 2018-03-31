@@ -10,6 +10,7 @@
 body,html{
   height: 100%;
   margin: 0;
+  width: 100%;
 }
 .bg{
   font-size: 10px;
@@ -28,6 +29,18 @@ body,html{
 .row.foods [class*='col-']:not(:last-child) {
   padding-right: 0px;
   padding-left: 0px;
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
 }
 .evenings img{
 max-width: 100%;
@@ -83,13 +96,7 @@ height: 100%
   background-size: cover;
 }
 
-/* .subscribe{
-  background-image: url('../images/assets/backgrounds/subscribe.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-} */
+
 .footer{
   position: relative;
   left: 0;
@@ -177,11 +184,34 @@ color: rgba(255, 255, 255, 0.884);
 }
 .btn-subscribe{
   background-color: #f15a29;
-  position: left;
+ 
 }
 .centered{
   position: relative;
   top:50%;
   left:50%;
   transform: translate(-50%, -50% );
+}
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: .5s ease;
+  text-align: center;
+}
+.breakfast {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
